@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family:'sourceansPro-regular' ;
+    src: url('/src/assets/fonts/SourceSansPro-Regular.ttf');
+    font-weight: normal ;
+}
+@font-face {
+    font-family: 'sourceansPro-regular';
+    src: url('/src/assets/fonts/SourceSansPro-SemiBold.ttf');
+    font-weight: 600;
+}
+/* Importing Bootstrap,font-awesome, SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+@import "~font-awesome/css/font-awesome.css";
+
+/* Reset css */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* To dded Source Sans Pro font globally*/
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+

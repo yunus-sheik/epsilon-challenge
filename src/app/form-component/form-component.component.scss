@@ -1,0 +1,23 @@
+.form {
+  max-width: 480px;
+  margin: auto;
+  padding: 40px;
+  &-group {
+    margin-bottom: 24px;
+    label {
+      font-size: 14px;
+      color: #1a1a1a;
+    }
+  }
+  &-control {
+    font-size: 14px;
+    color: #737373;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  &-btn {
+    width: 100%;
+    margin-top: 32px;
+  }
+}

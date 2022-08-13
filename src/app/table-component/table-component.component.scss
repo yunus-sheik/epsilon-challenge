@@ -1,0 +1,40 @@
+//colors can be stored in global file and use in all the components as varible or we can use extend
+.tableWrapper {
+  max-width: 768px;
+  margin: auto;
+  table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    tr {
+      border: none;
+      td {
+        border: none;
+        color: #666;
+        padding: 14px 24px;
+        font-size: 14px;
+      }
+      th {
+        @extend td;
+        font-weight: bold;
+        cursor: pointer;
+        .blueicon {
+          color: #0f5ef0;
+        }
+      }
+    }
+    &:nth-child(even) {
+      background: #fff;
+    }
+    &:nth-child(odd) {
+      background: #f7f7f7;
+    }
+    tbody {
+      tr:hover {
+        background: #f0f6ff;
+        cursor: pointer;
+      }
+    }
+  }
+}
